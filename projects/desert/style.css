@@ -1,0 +1,57 @@
+
+/* general */
+
+@font-face {
+    font-family: 'dk';
+    src: url('fonts/dk_hobgoblin.otf');
+}
+
+nav a {
+    text-transform: uppercase;
+    height: 40px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bg-secondary-style {
+    background-color: #e2e2e2;
+}
+
+.logo-font {
+    color: #a55122;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+h2, h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.h1-font {
+    font-family: dk;
+    letter-spacing: 3px;
+}
+
+/* Bureau */
+
+@media  (min-width: 992px) {
+    header > nav {
+        width: 50%;
+    }
+    header > nav > a {
+        background-color: initial!important;
+    }
+    main > div > div > img {
+        width: 100%;
+    }
+}
+
+/* background-color: initial; */
+

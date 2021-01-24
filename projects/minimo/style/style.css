@@ -1,0 +1,104 @@
+/* general */
+
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "pro";
+    src: url("../fonts/SourceCodePro-Regular.ttf");
+}
+
+img {
+    transform: scaleX(-1);
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #b7b7b6;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+h2 {
+    color: #626262;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+p {
+    color: #606060;
+}
+
+body {
+    font-family: pro serif;
+    width: 1065px;
+    margin: auto;
+    font-weight: normal
+}
+
+main, footer {
+    width: 900px;
+    margin: auto;
+}
+
+.grid_template_columns {
+    grid-template-columns: 45% 55%;
+}
+
+header a {
+    text-decoration: none;
+    color: #5d5d5d;
+    letter-spacing: -2px;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+/* header */
+
+header > h1 {
+    font-family: pro;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+header > nav {
+    grid-column-start: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    align-items: center;
+}
+
+/* Article */
+
+.grid_2x2 {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+article > img {
+    /* display: block; */
+    width: 100%;
+}
+
+main > div > article {
+    margin-right: 25px;
+}
+
+/* footer */
+
+.border_button {
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    color: #606060;
+}
+
+footer > div > a, p {
+    padding-right: 15px;
+}
+

@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "glacialRegular";
+  src: url("fonts/glacial/GlacialIndifference-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "glacialBold";
+  src: url("fonts/glacial/GlacialIndifference-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "glacialItalic";
+  src: url("fonts/glacial/GlacialIndifference-Italic.otf") format("opentype");
+}
+
+body {
+  color: #485070;
+  font-family: 'glacialRegular';
+  border: 6px solid #485070;
+}
+
+h1 {
+  font-family: 'glacialBold';
+  font-size: 32px;
+}
+
+/* h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+} */
+
+h2 {
+  font-family: 'glacialBold';
+  font-size: 26px;
+}
+
+/* h3 {
+  font-family: 'glacialBold';
+  font-size: 18px;
+} */
+
+h3 {
+  font-family: 'glacialBold';
+  font-size: 18px;
+}
+
+p {
+  font-family: 'glacialRegular';
+  font-size: 14px;
+}
+
+li {
+  font-family: 'glacialRegular';
+  font-size: 14px;
+}
+
+.lieu {
+  margin-top: -5.24px;
+}
+
+.devTitle {
+  font-family: 'glacialRegular';
+}
+
+.devIcons {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.devIconsEnd {
+  font-size: 40px;
+}
+
+a {
+  color: #485070;
+  text-decoration: none;
+  font-family: 'glacialRegular';
+  font-size: 13px;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: lightsteelblue;
+}
+
+.hexagon {
+  width: 10%;
+  transition: width 0.5s ease-in-out;
+}
+
+.hexagon:hover {
+  cursor: pointer;
+  width: 12%;
+}
+
+.bar {
+  height: 17px;
+  width: 440px;
+  background-color: #485070;
+  
+}
+
+.decorated{
+  overflow: hidden;
+  text-align: center;
+}
+
+.decorated > span{
+  position: relative;
+  display: inline-block;
+}
+
+.decorated > span:before, .decorated > span:after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  border-bottom: 3px solid;
+  width: 591px; 
+  margin: 0 20px;
+}
+
+.decorated > span:before {
+  right: 100%;
+}
+
+.decorated > span:after {
+  left: 100%;
+}
+
+/* aggrandir les titres 
+  grossir les traits, les mettre en couleur
+  mettre en italique genre COLOMBBUS 75010, PARIS - 2020/2021, les mettre en couleur
+  
+
+Déterminé et perséverant, je souhaite participer au développement de votre entreprise. Je suis quelqu'un de calme, rigoureux et bienveillant !
+en plus gros 
+
+HARD SKILLS , en gros et GRAS sans tirets 
+*/
